@@ -4,7 +4,22 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>klattsch - primitive formant synth</title>
-  <link rel="stylesheet" href="src/style.css?v=0.3.0">
+  <link rel="stylesheet" href="src/style.css?v=0.3.1">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('consent', 'default', {
+      'analytics_storage': 'denied',
+      'ad_storage': 'denied',
+      'ad_user_data': 'denied',
+      'ad_personalization': 'denied'
+    });
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-D20MDP81EK"></script>
+  <script>
+    gtag('js', new Date());
+    gtag('config', 'G-D20MDP81EK');
+  </script>
 </head>
 <body>
   <div class="page-header">
@@ -271,6 +286,18 @@ examples
     </div>
   </dialog>
 
-  <script type="module" src="src/main.js?v=0.3.0"></script>
+  <aside id="cookie-consent" class="cookie-consent" hidden>
+    <p class="cookie-consent-title">analytics consent</p>
+    <p class="cookie-consent-body">
+      klattsch uses google analytics to count visits and feature usage. cookieless pings always flow; cookies and full tracking are off until you accept.
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">privacy policy</a>
+    </p>
+    <div class="cookie-consent-actions">
+      <button id="cookie-decline" type="button">decline</button>
+      <button id="cookie-accept" type="button" class="primary">accept</button>
+    </div>
+  </aside>
+
+  <script type="module" src="src/main.js?v=0.3.1"></script>
 </body>
 </html>
