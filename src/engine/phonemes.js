@@ -64,11 +64,6 @@ export const phonemes = {
   UH: vowel(450, 1100, 2350, 80, 100,  80, { F1: 500, F2: 1180, F3: 2390 }),
   UW: vowel(350, 1250, 2200, 65, 110, 140, { F1: 320,  F2: 900, F3: 2200 }),
   ER: vowel(470, 1270, 1540, 100, 60, 110, { F1: 420, F2: 1310, F3: 1540 }),
-  I: vowel(350, 2000, 3000, 60, 130, 140),
-  E: vowel(500, 1700, 2300, 60, 100, 250),
-  A: vowel(750, 1250, 2250, 180, 110, 220),
-  O: vowel(500, 850, 2250, 60, 110, 130),
-  U: vowel(450, 1250, 2150, 50, 120, 130),
 
   // Diphthongs (Klatt 1980 Table II)
   AY: vowel(660, 1200, 2550, 100, 70, 200, { F1: 400, F2: 1880, F3: 2500 }),
@@ -81,7 +76,6 @@ export const phonemes = {
   W: sonorant(290,  610, 2150, 50,  80,  60),
   Y: sonorant(260, 2070, 3020, 40, 250, 500),
   R: sonorant(310, 1060, 1380, 70, 100, 120),
-  DXA: sonorant(310, 1055, 2130, 60, 100, 200),
   L: sonorant(310, 1050, 2880, 50, 100, 280),
 
   // Nasals (Klatt 1980 Table III, approximated)
@@ -117,12 +111,6 @@ export const phonemes = {
         BW1: 300, BW2: 120, BW3: 250, A1: 0.0,  A2: 0.30, A3: 0.55 },
   D:  { isStop: true, voicing: 0.6, F1: 200, F2: 1600, F3: 2600,
         BW1:  60, BW2: 100, BW3: 170, A1: 0.50, A2: 0.40, A3: 0.50 },
-  DXB:  { isStop: true, voicing: 0.6, F1: 255, F2: 1330, F3: 2365,
-        BW1:  60, BW2: 100, BW3: 185, A1: 0.65, A2: 0.55, A3: 0.50 },
-  DXC:  { isStop: true, voicing: 0.6, F1: 310, F2: 1055, F3: 2130,
-        BW1:  60, BW2: 100, BW3: 200, A1: 0.8, A2: 0.7, A3: 0.5 },
-  DXD:  { isStop: true, voicing: 0.6, F1: 310, F2: 1060, F3: 1380,
-        BW1:  70, BW2: 100, BW3: 120, A1: 0.8, A2: 0.7, A3: 0.50 },
   K:  { isStop: true, voicing: 0,   F1: 300, F2: 1990, F3: 2850,
         BW1: 250, BW2: 160, BW3: 330, A1: 0.0,  A2: 0.50, A3: 0.40 },
   G:  { isStop: true, voicing: 0.6, F1: 200, F2: 1990, F3: 2850,
@@ -133,6 +121,24 @@ export const phonemes = {
         BW1: 200, BW2:  90, BW3: 300, A1: 0.0,  A2: 0.40, A3: 0.55 },
   JH: { isStop: true, voicing: 0.5, F1: 260, F2: 1800, F3: 2820,
         BW1:  60, BW2:  80, BW3: 270, A1: 0.40, A2: 0.40, A3: 0.50 },
+
+  // Japanese vowels
+  I: vowel(350, 2000, 3000, 60, 130, 140),
+  E: vowel(500, 1700, 2300, 60, 100, 250),
+  A: vowel(750, 1250, 2250, 180, 110, 220),
+  O: vowel(500, 850, 2250, 60, 110, 130),
+  U: vowel(450, 1250, 2150, 50, 120, 130),
+  
+  // my DX attempts
+  DXA: sonorant(310, 1055, 2130, 60, 100, 200),
+  DXB:  { isStop: true, voicing: 0.6, F1: 255, F2: 1330, F3: 2365,
+        BW1:  60, BW2: 100, BW3: 185, A1: 0.65, A2: 0.55, A3: 0.50 },
+  DXC:  { isStop: true, voicing: 0.6, F1: 310, F2: 1055, F3: 2130,
+        BW1:  60, BW2: 100, BW3: 200, A1: 0.8, A2: 0.7, A3: 0.50 },
+  DXD:  { isStop: true, voicing: 0.6, F1: 310, F2: 1060, F3: 1380,
+        BW1:  70, BW2: 100, BW3: 120, A1: 0.8, A2: 0.7, A3: 0.50 },
+  DXE:  { isStop: true, voicing: 0.6, F1: 255, F2: 1325, F3: 2740,
+        BW1:  55, BW2: 100, BW3: 225, A1: 0.65, A2: 0.55, A3: 0.50 },
 
   // Silence
   _:  { voicing: 0, F1: 500, F2: 1500, F3: 2500, BW1: 80, BW2: 120, BW3: 160,
