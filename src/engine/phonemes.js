@@ -76,6 +76,7 @@ export const phonemes = {
   W: sonorant(290,  610, 2150, 50,  80,  60),
   Y: sonorant(260, 2070, 3020, 40, 250, 500),
   R: sonorant(310, 1060, 1380, 70, 100, 120),
+  TEST: sonorant(310, 1055, 2130, 60, 100, 200),
   L: sonorant(310, 1050, 2880, 50, 100, 280),
 
   // Nasals (Klatt 1980 Table III, approximated)
