@@ -116,6 +116,8 @@ export const phonemes = {
         BW1:  60, BW2: 100, BW3: 185, A1: 0.65, A2: 0.55, A3: 0.50 },
   DXC:  { isStop: true, voicing: 0.6, F1: 310, F2: 1055, F3: 2130,
         BW1:  60, BW2: 100, BW3: 200, A1: 0.8, A2: 0.7, A3: 0.5 },
+  DXD:  { isStop: true, voicing: 0.6, F1: 310, F2: 1060, F3: 1380,
+        BW1:  70, BW2: 100, BW3: 120, A1: 0.8, A2: 0.7, A3: 0.50 },
   K:  { isStop: true, voicing: 0,   F1: 300, F2: 1990, F3: 2850,
         BW1: 250, BW2: 160, BW3: 330, A1: 0.0,  A2: 0.50, A3: 0.40 },
   G:  { isStop: true, voicing: 0.6, F1: 200, F2: 1990, F3: 2850,
