@@ -76,7 +76,7 @@ export const phonemes = {
   W: sonorant(290,  610, 2150, 50,  80,  60),
   Y: sonorant(260, 2070, 3020, 40, 250, 500),
   R: sonorant(310, 1060, 1380, 70, 100, 120),
-  TEST: sonorant(310, 1055, 2130, 60, 100, 200),
+  DX1: sonorant(310, 1055, 2130, 60, 100, 200),
   L: sonorant(310, 1050, 2880, 50, 100, 280),
 
   // Nasals (Klatt 1980 Table III, approximated)
@@ -112,6 +112,10 @@ export const phonemes = {
         BW1: 300, BW2: 120, BW3: 250, A1: 0.0,  A2: 0.30, A3: 0.55 },
   D:  { isStop: true, voicing: 0.6, F1: 200, F2: 1600, F3: 2600,
         BW1:  60, BW2: 100, BW3: 170, A1: 0.50, A2: 0.40, A3: 0.50 },
+  DX2:  { isStop: true, voicing: 0.6, F1: 255, F2: 1330, F3: 2365,
+        BW1:  60, BW2: 100, BW3: 185, A1: 0.65, A2: 0.55, A3: 0.50 },
+  DX3:  { isStop: true, voicing: 0.6, F1: 310, F2: 1055, F3: 2130,
+        BW1:  60, BW2: 100, BW3: 200, A1: 0.8, A2: 0.7, A3: 0.5 },
   K:  { isStop: true, voicing: 0,   F1: 300, F2: 1990, F3: 2850,
         BW1: 250, BW2: 160, BW3: 330, A1: 0.0,  A2: 0.50, A3: 0.40 },
   G:  { isStop: true, voicing: 0.6, F1: 200, F2: 1990, F3: 2850,
