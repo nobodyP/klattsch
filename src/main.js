@@ -646,7 +646,7 @@ const PHONEME_EXAMPLES = {
   SH: '[sh]e',  V:  '[v]ee',   DH: '[th]is',   Z:  '[z]oo',    ZH: 'vi[s]ion',
   HH: '[h]e',   P:  '[p]ea',   B:  '[b]ee',    T:  '[t]ea',    D:  '[d]ee',
   K:  '[k]ey',  G:  '[g]o',    CH: '[ch]eese', JH: '[j]udge',  DXE:'koko[r]o',
-  A:  '[a]ru',  E:  '[e]ki',   I: '[i]ru',     O:  '[o]ni',    U:  '[u]nagi',
+  A:  '[a]ru',  E:  '[e]ki',   I: '[i]ru',     O:  '[o]ni',    U:  '[u]nagi', NN:  'niho[n]',
 };
 
 function buildExampleSpan(s) {
